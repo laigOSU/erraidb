@@ -1,0 +1,11 @@
+/Users/Geneva/Projects/AzureSql/AzureSql/obj/Debug/netcoreapp2.2/AzureSql.csprojAssemblyReference.cache
+/Users/Geneva/Projects/AzureSql/AzureSql/obj/Debug/netcoreapp2.2/AzureSql.csproj.CoreCompileInputs.cache
+/Users/Geneva/Projects/AzureSql/AzureSql/obj/Debug/netcoreapp2.2/AzureSql.AssemblyInfoInputs.cache
+/Users/Geneva/Projects/AzureSql/AzureSql/obj/Debug/netcoreapp2.2/AzureSql.AssemblyInfo.cs
+/Users/Geneva/Projects/AzureSql/AzureSql/bin/Debug/netcoreapp2.2/AzureSql.deps.json
+/Users/Geneva/Projects/AzureSql/AzureSql/bin/Debug/netcoreapp2.2/AzureSql.runtimeconfig.json
+/Users/Geneva/Projects/AzureSql/AzureSql/bin/Debug/netcoreapp2.2/AzureSql.runtimeconfig.dev.json
+/Users/Geneva/Projects/AzureSql/AzureSql/bin/Debug/netcoreapp2.2/AzureSql.dll
+/Users/Geneva/Projects/AzureSql/AzureSql/bin/Debug/netcoreapp2.2/AzureSql.pdb
+/Users/Geneva/Projects/AzureSql/AzureSql/obj/Debug/netcoreapp2.2/AzureSql.dll
+/Users/Geneva/Projects/AzureSql/AzureSql/obj/Debug/netcoreapp2.2/AzureSql.pdb
