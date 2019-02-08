@@ -1,42 +1,55 @@
-﻿import React, { Component } from 'react';
+import React, { Component } from 'react';
 import ReactDOM from "react-dom";
+
 
 export class Login extends Component {
   displayName = Login.name
   
 render() {
     return (
-      <div> {/*JSX ROOT*/}
 
+      <div> {/*JSX ROOT*/}
         
         <div class="card">
+            <article class="card-body">
+                <h4 class="card-title text-center mb-4 mt-1">LOGIN</h4>
 
-            {/*HEADER: LOGIN*/}
-            <div class="card-header">
-                <h3 class="mb-0">Login</h3>
-            </div> {/*End of card-header*/}
+                <p class="text-success text-center">Please log in with your email and password</p>
+                <form action="/">
+                <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                     </div>
+                    <input name="" class="form-control" placeholder="Email" type="email"/>
+                </div> 
+                </div> 
+                <div class="form-group">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                     </div>
+                    <input class="form-control" placeholder="******" type="password"/>
+                </div> 
+                </div> 
+            <div class="row">
+                    <div class = "col-md-6">
 
-            {/*BODY: THE LOGIN FORM*/}    
-            <div class="card-body">
-                <form action="/">   {/*Hit submit = go to home page*/}
-                  <div class="form-group">
-                    <label for="email">Email address:</label>
-                    <input type="email" class="form-control" id="email"/>
-                  </div>
-                  <div class="form-group">
-                    <label for="pwd">Password:</label>
-                    <input type="password" class="form-control" id="pwd"/>
-                  </div>
-                  <div class="form-group form-check">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox"/> Remember me
-                    </label>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                        <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                         <a href="" class="btn btn-outline-primary btn-block">Sign up</a>
+                    </div>
+
+                    </div>
+
+                <p class="text-center"><a href="#" class="btn">Forgot password?</a></p>
                 </form>
-            </div> {/*End of card-body*/}
+            </article>
 
-        </div> {/*End of card*/}
+            </div> 
       </div> // End of JSX root in render
     );
   }
