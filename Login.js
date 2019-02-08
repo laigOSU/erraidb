@@ -19,7 +19,7 @@ render() {
                 <div class="form-group">
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                      </div>
                     <input name="" class="form-control" placeholder="Email" type="email"/>
                 </div> 
@@ -40,7 +40,7 @@ render() {
                         </div>
                     </div>
                     <div class="col-md-6">
-                         <a href="" class="btn btn-outline-primary btn-block">Sign up</a>
+                         <a href="/signup" class="btn btn-outline-primary btn-block">Sign up</a>
                     </div>
 
                     </div>
